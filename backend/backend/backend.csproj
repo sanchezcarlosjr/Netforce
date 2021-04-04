@@ -5,7 +5,21 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3"/>
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Models\Backoffice" />
+      <Folder Include="Models\Chatbot" />
+      <Folder Include="Controllers\Backoffice" />
+      <Folder Include="Controllers\Chatbot" />
+      <Folder Include="Controllers\PersonalRelationshipManagement" />
+      <Folder Include="Models\PersonalRelationshipManagement\Contacts\Application" />
+      <Folder Include="Models\PersonalRelationshipManagement\Contacts\Domain" />
+      <Folder Include="Models\PersonalRelationshipManagement\Contacts\Infraestructure" />
+      <Folder Include="Models\PersonalRelationshipManagement\Tips\Application" />
+      <Folder Include="Models\PersonalRelationshipManagement\Tips\Domain" />
+      <Folder Include="Models\PersonalRelationshipManagement\Tips\Infraestructure" />
     </ItemGroup>
 
 </Project>
